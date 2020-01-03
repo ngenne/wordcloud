@@ -23,6 +23,8 @@ mask = np.array(Image.open(str(input()), mode='r'))
 ```
 
    > C:\Users\ngenne\Pictures\burger2.png
+
+![burger2.png](https://i.ibb.co/sjCx5hP/burger2.png "wordcloud-example")
     
 
 ## Take colors from the mask image
@@ -52,3 +54,6 @@ def wordcloud_gen(text): # optionally add: stopwords=STOPWORDS to determine afte
 ```python
 wordcloud_gen(text).save_fig('wc.png')
 ```
+
+## Result
+![wc.png](https://i.ibb.co/cTH1ZxQ/burger-chart.png "wordcloud-example")
